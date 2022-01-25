@@ -1,0 +1,212 @@
+body {
+  margin: auto;
+}
+.backgd {
+  background-image: url("../images/food-wallpaper.png");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  border-bottom: 1px solid white !important;
+}
+
+a {
+  color: white !important;
+}
+.form-select {
+  display: inline-block;
+  width: 20%;
+  margin: 10px;
+  border: 1px solid #dc3545;
+  color:#dc3545;
+}
+.dropdown{
+  margin-left: 440px ;
+}
+#logo {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 110px;
+  text-align: center;
+  color: #bb2d3b;
+  margin: auto;
+}
+#heading {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: .25rem;
+}
+/* .dropdown {
+  background-color: aqua;
+} */
+
+.search {
+  height: 45px;
+  width: 15%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.img-fluid{
+  width: 100%;
+  height: 100%;
+}
+
+.icon-bar,
+.navbar-toggle {
+  color: #bb2d3b;
+}
+@media screen and (max-width: 600px) {
+  .search {
+    height: 40px;
+    width: 60%;
+  }
+}
+.col-4 {
+  margin-top: 1% !important;
+}
+.dropdown {
+  margin-top: 3% !important;
+  width: 100%;
+  margin-left: -100px;
+}
+
+.dropdown-menu {
+  background-color: #bb2d3b !important;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #ff5a5a !important;
+}
+
+.box_Component {
+  width: 46%;
+  float: left;
+}
+
+.box_Component > img {
+  width: 120%;
+  height: 150px;
+}
+
+
+.box {
+  margin: 10px;
+  box-shadow: 0 3px 6px 0 #a22824;
+}
+  
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.img-fluid{
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  #heading {
+    font-size: 14px;
+  }
+  .dropdown {
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 770px) {
+  #heading {
+    font-size: 20px;
+  }
+
+}
+#coupons {
+  height: 400px;
+  width: 600px;
+  /* display: none; */
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 5%;
+  z-index: 1;
+}
+.card-img-overlay {
+  padding: 0 !important;
+}
+
+.fa-times {
+  color: #bb2d3b;
+  font-size: 15px;
+}
+.imgBox{
+  height: 200px;
+}
+.offer-btn {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -50px;
+}
+#fa-times {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 570px;
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.epic {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.offer {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 970px) {
+  #coupons {
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+  }
+  .dropdown {
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #coupons {
+    height: 300px;
+    width: 450px;
+    margin-left: auto;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .epic {
+    margin-left: 40px;
+  }
+  .offer {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .offer-btn {
+    margin-left: 320px;
+    margin-top: -60px;
+  }
+  #fa-times {
+    margin-top: -60px;
+    margin-left: 425px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  /* .dropdown{
+    margin-left: 500xp!important;
+  } */
+}

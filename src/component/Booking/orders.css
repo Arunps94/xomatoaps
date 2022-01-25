@@ -1,0 +1,35 @@
+.menuitems{
+    height:50px;
+}
+.itemImg{
+    height:50px;
+    width: 50px;
+}
+
+.title{
+    margin-top:-10px;
+}
+
+.itemPrice{
+    position: absolute;
+    left: 1150px;
+    
+}
+
+.cost{
+    margin-left: 1060px;
+    border-bottom: 5px double;  
+}
+
+
+@media only screen and (max-width: 1400px) {
+    
+    .itemPrice{
+        position: absolute;
+        left: 1000px;
+        
+    }
+    .cost{
+        margin-left: 920px;
+    }
+}

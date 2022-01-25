@@ -1,0 +1,31 @@
+https://xomatoapsapi.herokuapp.com/location
+
+https://xomatoapsapi.herokuapp.com/restaurants?city=:id
+
+https://xomatoapsapi.herokuapp.com/mealType
+
+<!-- Filter -->
+https://xomatoapsapi.herokuapp.com/filter/1
+
+https://xomatoapsapi.herokuapp.com/filter/1?cuisine=1
+
+https://xomatoapsapi.herokuapp.com/filter/1?lcost=650&hcost=850
+
+(https://xomatoapsapi.herokuapp.com/filter/1?lcost=500&hcost=2000&sortKey=1)
+
+https://xomatoapsapi.herokuapp.com/filter/1?lcost=500&hcost=1000&cuisine=2
+<!--  -->
+
+https://xomatoapsapi.herokuapp.com/restaurants/12
+
+https://xomatoapsapi.herokuapp.com/menu/5
+
+https://xomatoapsapi.herokuapp.com/menuItem  >> post
+
+https://xomatoapsapi.herokuapp.com/placeOrder >> post
+
+https://xomatoapsapi.herokuapp.com/updateStatus/1 >> put
+
+https://xomatoaps.apiherokuapp.com/deleteOrder >> deletOrders
+
+https://xomatoapsapi.herokuapp.com/orders >> order is placed

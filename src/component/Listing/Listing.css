@@ -1,0 +1,86 @@
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#main{
+    width:80%;
+    height: 800px;
+    margin-left: 10%;
+}
+
+.filter{
+    width:20%;
+    border: 2px solid #dc3545;
+    height: 600px;
+    float: left;
+}
+
+hr{
+    border-top: 2px solid #dc3545;
+}
+.content{
+    width:74%;
+    margin-left: 5%;
+    float: left;
+    margin-top: -2%;
+}
+
+.listBox{
+    width:90% !important;
+    box-shadow: 0 3px 6px 0 #a22824;
+    margin-top: 2%;
+    height: 300px;
+    border: 2px solid rgb(116, 112, 112);
+}
+
+.listImg{
+    width: 100%;
+   height: 295px;
+}
+
+
+.btnList{
+    width: 50%;
+    margin-left: -1% !important;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 990px) {
+  
+    .listBox{
+        height:490px;
+        margin-top:30px;
+    }
+    .listImg{
+        width: 100%;
+       height: 200px;
+    }
+    .md-body{
+        margin-top:-10px
+    }
+   
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    .listBox{
+        height:500px;
+        margin-top:20px;
+        width: 50%!important;
+        margin-left:30%;
+    }
+   }
+
+   
+  @media only screen and (max-width: 590px) {
+    .listBox{
+        height:500px;
+        margin-top:20px;
+        width: 70%!important;
+        margin-left:20%;
+    }
+
+   }
